@@ -1,0 +1,8 @@
+{
+  "name": "agentftp-upload",
+  "description": "Upload files or folders to AgentFTP and get a shareable URL",
+  "version": "1.0.0",
+  "author": {
+    "name": "manu-codelabs"
+  }
+}

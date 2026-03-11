@@ -1,0 +1,14 @@
+{
+  "name": "manu-codelabs-skills",
+  "description": "Skills for AI agents by manu-codelabs",
+  "plugins": [
+    {
+      "name": "agentftp-upload",
+      "path": "agentftp-upload"
+    },
+    {
+      "name": "agentftp-download",
+      "path": "agentftp-download"
+    }
+  ]
+}
