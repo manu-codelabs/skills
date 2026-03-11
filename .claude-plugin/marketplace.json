@@ -1,14 +1,18 @@
 {
   "name": "manu-codelabs-skills",
-  "description": "Skills for AI agents by manu-codelabs",
+  "owner": {
+    "name": "manu-codelabs"
+  },
   "plugins": [
     {
       "name": "agentftp-upload",
-      "path": "agentftp-upload"
+      "source": "./agentftp-upload",
+      "description": "Upload files or folders to AgentFTP and get a shareable URL"
     },
     {
       "name": "agentftp-download",
-      "path": "agentftp-download"
+      "source": "./agentftp-download",
+      "description": "Download files from AgentFTP by URL or artifact ID"
     }
   ]
 }
