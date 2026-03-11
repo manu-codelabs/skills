@@ -1,18 +1,31 @@
 {
   "name": "manu-codelabs-skills",
   "owner": {
-    "name": "manu-codelabs"
+    "name": "manu-codelabs",
+    "email": ""
+  },
+  "metadata": {
+    "description": "AgentFTP skills for Claude Code - upload and download files between agents",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "agentftp-upload",
-      "source": "./agentftp-upload",
-      "description": "Upload files or folders to AgentFTP and get a shareable URL"
+      "description": "Upload files or folders to AgentFTP and get a shareable public URL",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agentftp-upload"
+      ]
     },
     {
       "name": "agentftp-download",
-      "source": "./agentftp-download",
-      "description": "Download files from AgentFTP by URL or artifact ID"
+      "description": "Download files from AgentFTP by URL or artifact ID",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agentftp-download"
+      ]
     }
   ]
 }
